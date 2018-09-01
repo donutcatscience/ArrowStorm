@@ -34,3 +34,31 @@ lance.image_angle = image_angle
 shield.x = x
 shield.y = y
 shield.image_angle = image_angle
+
+
+if(tick and tickTimer = 0)
+{
+	audio_play_sound(Acid_Sizzle,100,false)
+	hp--
+	tickTimer++
+	
+	tick = false;
+}
+if(tickTimer > 0)
+{
+	tickTimer++
+	
+	if(tickTimer >= room_speed/ticksPerSecond)
+	{
+		tickTimer = 0
+	}
+}
+
+
+if(hp <= 0)
+{
+	instance_deactivate_object(lance)
+	instance_deactivate_object(shield)
+	instance_deactivate_object(self)
+	
+}

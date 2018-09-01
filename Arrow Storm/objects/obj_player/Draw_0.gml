@@ -1,4 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Debug Info
+
 draw_self()
 draw_text(x,y,hp)

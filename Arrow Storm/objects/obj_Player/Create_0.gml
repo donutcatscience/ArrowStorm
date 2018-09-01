@@ -1,4 +1,3 @@
-/// @description Insert description here
 
 // movement speed
 moveSpeed = 5
@@ -14,4 +13,8 @@ shield = instance_create_layer(x,y,"Instances",obj_shield)
 
 // player health
 hp = 100
+
+tick = false;
+tickTimer = 0;
+ticksPerSecond = 3
 
