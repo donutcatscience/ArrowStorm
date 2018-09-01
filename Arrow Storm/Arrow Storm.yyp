@@ -63,10 +63,26 @@
             }
         },
         {
+            "Key": "4e018925-0bd1-4744-848f-214163b8c70f",
+            "Value": {
+                "id": "eb1b8eb5-f000-4a7d-af41-b64757c54d97",
+                "resourcePath": "views\\4e018925-0bd1-4744-848f-214163b8c70f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5890956e-c1a2-4bc5-adbc-78638771fff8",
             "Value": {
                 "id": "5d400ebf-3748-46ec-98a4-493656bdc01d",
                 "resourcePath": "views\\5890956e-c1a2-4bc5-adbc-78638771fff8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5bd7dc0b-8d64-4e9a-8167-0b225c5fe9cc",
+            "Value": {
+                "id": "a13a6601-5d79-4b79-a901-0879119d9749",
+                "resourcePath": "views\\5bd7dc0b-8d64-4e9a-8167-0b225c5fe9cc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -135,6 +151,22 @@
             }
         },
         {
+            "Key": "8f48a2de-4671-4869-ad46-ca5532f2d4a4",
+            "Value": {
+                "id": "3d470cd8-27b4-45f5-9ad6-efbea4cbf24c",
+                "resourcePath": "sounds\\Badguy_Death_Noise\\Badguy_Death_Noise.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "977a234a-47f9-4251-b4a2-99c86e7c8309",
+            "Value": {
+                "id": "dbeef7b1-f286-4765-9fed-b827112dd64e",
+                "resourcePath": "sounds\\Player_Taken_Damage\\Player_Taken_Damage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9b9a0518-f205-40ba-be52-4cfcd0e37a52",
             "Value": {
                 "id": "b6a48dc4-e3b1-4124-857e-540425dc9ae5",
@@ -159,11 +191,35 @@
             }
         },
         {
+            "Key": "af49a48d-8616-48b3-968d-dc79555e8e53",
+            "Value": {
+                "id": "73306b4f-6b35-487d-b5c0-783b99a27ceb",
+                "resourcePath": "sounds\\Assassin_Smoke_Bomb\\Assassin_Smoke_Bomb.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b3bd98ac-066c-44cb-9d2c-b232c67b6e56",
+            "Value": {
+                "id": "3a72c9ff-075b-4306-b50b-9deae4973353",
+                "resourcePath": "views\\b3bd98ac-066c-44cb-9d2c-b232c67b6e56.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "d6596fcf-2009-4561-a5fb-f8b1b0bde9e1",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cfc00bdd-b389-4534-b5a2-57ea2cf7b434",
+            "Value": {
+                "id": "b0974085-4dff-4f3d-b810-b8955a1d2deb",
+                "resourcePath": "sounds\\Jar_Smash\\Jar_Smash.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -195,6 +251,14 @@
             "Value": {
                 "id": "f2094737-7c9d-49fe-94b1-c99d7b789667",
                 "resourcePath": "sounds\\Acid_Sizzle\\Acid_Sizzle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e86ec144-9c03-4720-9b1e-ed48fce79b53",
+            "Value": {
+                "id": "d300cbb5-c561-454f-ab42-d3a97b01abcf",
+                "resourcePath": "sounds\\Enemy_Death_Screme\\Enemy_Death_Screme.yy",
                 "resourceType": "GMSound"
             }
         },
