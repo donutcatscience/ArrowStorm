@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0a0505e4-5a37-4611-bf3d-e77fbae06025",
+            "Value": {
+                "id": "37fcdff2-30c1-44a2-8e2e-61a6af92587e",
+                "resourcePath": "sounds\\Lance_Draw\\Lance_Draw.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0e9ebb35-b0e3-4328-831a-5e27cf0352ed",
             "Value": {
                 "id": "37d3f502-2e6a-4850-b5c7-746a357cf686",
@@ -79,11 +87,27 @@
             }
         },
         {
+            "Key": "2e4d657f-4963-495d-8c1f-27c355a39da0",
+            "Value": {
+                "id": "437f24fc-d7a9-48fb-8bc9-977bf0a442b4",
+                "resourcePath": "views\\2e4d657f-4963-495d-8c1f-27c355a39da0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2ee83ba1-a679-4c92-b279-f2a817b15fda",
             "Value": {
                 "id": "68873001-eacd-4d76-b0c2-165bb307b5f6",
                 "resourcePath": "sounds\\Crossbow_Fire\\Crossbow_Fire.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "32dfcfbf-e5ba-443c-91b8-1842e57793b3",
+            "Value": {
+                "id": "070ac40d-c459-4e6b-a083-efbe1e7f9037",
+                "resourcePath": "views\\32dfcfbf-e5ba-443c-91b8-1842e57793b3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -175,6 +199,14 @@
             }
         },
         {
+            "Key": "6d664b62-a91e-4e63-99aa-ad8364837af5",
+            "Value": {
+                "id": "9ad05566-3db2-4e3f-b471-4e26ba16faa9",
+                "resourcePath": "sounds\\Horse_Gallop\\Horse_Gallop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "703f1e55-0e17-43cf-9f9a-2eaa369016a8",
             "Value": {
                 "id": "695a64e8-d2f0-4169-89a1-c131a37916fc",
@@ -203,6 +235,14 @@
             "Value": {
                 "id": "483f446d-b538-43e2-be48-e4bd82b17449",
                 "resourcePath": "sounds\\Rock_Block\\Rock_Block.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "794d7f52-061d-4703-8758-129c650fe71e",
+            "Value": {
+                "id": "50db391c-fce7-45d1-a3d5-0f1ed5309459",
+                "resourcePath": "sounds\\Shield_Up\\Shield_Up.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -323,6 +363,14 @@
             "Value": {
                 "id": "9feedf8c-6c88-413b-a598-57f943c164b0",
                 "resourcePath": "views\\d48620f9-9c66-4113-860d-cbc13aaae84a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d6525e04-346b-4cfb-b1ed-f614636b75ef",
+            "Value": {
+                "id": "43493f4e-777f-41bb-be26-177e869f15ae",
+                "resourcePath": "views\\d6525e04-346b-4cfb-b1ed-f614636b75ef.yy",
                 "resourceType": "GMFolder"
             }
         },
