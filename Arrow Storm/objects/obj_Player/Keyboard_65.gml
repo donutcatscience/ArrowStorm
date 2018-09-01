@@ -1,4 +1,3 @@
 /// @description Left
 
 x -= moveSpeed
-
