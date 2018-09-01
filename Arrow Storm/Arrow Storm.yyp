@@ -58,7 +58,7 @@
             "Key": "23ace002-cde6-48e4-b3cb-4f91c04a67a8",
             "Value": {
                 "id": "b8f1c401-494a-4376-ba11-bedcb5e11827",
-                "resourcePath": "rooms\\FullRoom\\FullRoom.yy",
+                "resourcePath": "rooms\\rm_mainLevel\\rm_mainLevel.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "4ac38602-ff58-43e5-a78f-18c7319480f6",
+            "Value": {
+                "id": "5831e7db-2a5b-488a-94a2-234b73a030b4",
+                "resourcePath": "views\\4ac38602-ff58-43e5-a78f-18c7319480f6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4e018925-0bd1-4744-848f-214163b8c70f",
             "Value": {
                 "id": "eb1b8eb5-f000-4a7d-af41-b64757c54d97",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "a13a6601-5d79-4b79-a901-0879119d9749",
                 "resourcePath": "views\\5bd7dc0b-8d64-4e9a-8167-0b225c5fe9cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "608276ba-7259-4ead-a1fb-23e0a02dfaa0",
+            "Value": {
+                "id": "1fbb8f32-8c25-4d2a-950c-3f621c9d287c",
+                "resourcePath": "views\\608276ba-7259-4ead-a1fb-23e0a02dfaa0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "768976b7-0f27-4d6a-8462-93ee0eb504eb",
+            "Value": {
+                "id": "02cc0add-582c-44b6-8644-8bbfb31e00b6",
+                "resourcePath": "views\\768976b7-0f27-4d6a-8462-93ee0eb504eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "76c772ec-8253-4e50-b9ca-9e161025e0aa",
             "Value": {
                 "id": "483f446d-b538-43e2-be48-e4bd82b17449",
@@ -207,11 +231,27 @@
             }
         },
         {
+            "Key": "8e7b7ee0-99c8-4dcc-8f6c-418b8392adfb",
+            "Value": {
+                "id": "4e74fac0-0c3b-4d1f-82b5-47da85624548",
+                "resourcePath": "views\\8e7b7ee0-99c8-4dcc-8f6c-418b8392adfb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8f48a2de-4671-4869-ad46-ca5532f2d4a4",
             "Value": {
                 "id": "3d470cd8-27b4-45f5-9ad6-efbea4cbf24c",
                 "resourcePath": "sounds\\Badguy_Death_Noise\\Badguy_Death_Noise.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "926befa6-166d-47eb-a37b-82132d7200a2",
+            "Value": {
+                "id": "4b124e94-4d27-4ac0-9e1a-117b834b1e73",
+                "resourcePath": "sprites\\background_grass\\background_grass.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -287,6 +327,14 @@
             }
         },
         {
+            "Key": "d7168eb1-6965-49d4-9a01-dd50274181c6",
+            "Value": {
+                "id": "ae750fd9-7133-4a5c-b06e-0eaf4cf8900b",
+                "resourcePath": "tilesets\\tileset_terrain\\tileset_terrain.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "db1984b0-656c-4c42-8352-cb30e5e0481e",
             "Value": {
                 "id": "5fa895ff-7f84-4dbc-83b6-101c04f6081f",
@@ -348,6 +396,14 @@
                 "id": "41ac5daf-ed80-4fd5-a3a4-5f04438be597",
                 "resourcePath": "views\\f6409e9b-4b36-449e-8f6c-8d020c90b275.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f8fd933c-35f3-4fee-885f-3876fd0ef0ac",
+            "Value": {
+                "id": "9120c465-6383-4802-b12e-4d63bf0a69ba",
+                "resourcePath": "sprites\\spr_terrain\\spr_terrain.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
