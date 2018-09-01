@@ -38,7 +38,7 @@ shield.image_angle = image_angle
 
 if(tick and tickTimer = 0)
 {
-	audio_play_sound(Acid_Sizzle,100,false)
+	audio_play_sound(snd_acid_Sizzle,100,false)
 	hp--
 	tickTimer++
 	

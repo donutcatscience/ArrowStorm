@@ -15,5 +15,5 @@ if(!deflected)
 	
 	deflected = true
 	
-	audio_play_sound(Arrow_Block,100,false)
+	audio_play_sound(snd_arrow_Block,100,false)
 }
