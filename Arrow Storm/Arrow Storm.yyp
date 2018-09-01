@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "07664b4e-7b94-463e-987a-564dafe07758",
+            "Value": {
+                "id": "ef530d0d-2314-49eb-9df1-00a1cc532e3d",
+                "resourcePath": "sounds\\Javalin_Block\\Javalin_Block.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "0e9ebb35-b0e3-4328-831a-5e27cf0352ed",
+            "Value": {
+                "id": "37d3f502-2e6a-4850-b5c7-746a357cf686",
+                "resourcePath": "sounds\\Rock_Hit\\Rock_Hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "16803c03-96e5-4afe-a90a-642ea769a432",
             "Value": {
                 "id": "c09fced5-a5bd-4630-85e6-ae4b21a694d3",
@@ -52,6 +68,30 @@
                 "id": "d20a8c7f-32a3-40b6-97f6-f9d18e7a8620",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a754547-2368-48af-af72-68409d5ef3a1",
+            "Value": {
+                "id": "03f6a05b-bf08-4179-af86-b289a2940857",
+                "resourcePath": "sounds\\Arrow_Block\\Arrow_Block.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2ee83ba1-a679-4c92-b279-f2a817b15fda",
+            "Value": {
+                "id": "68873001-eacd-4d76-b0c2-165bb307b5f6",
+                "resourcePath": "sounds\\Crossbow_Fire\\Crossbow_Fire.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "421d1317-1ab2-4624-a0ae-a6ad0c5f9a76",
+            "Value": {
+                "id": "9bd442a8-9871-4530-852d-5fcdeb3f41da",
+                "resourcePath": "sounds\\Lance_Stab\\Lance_Stab.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -127,6 +167,22 @@
             }
         },
         {
+            "Key": "73764cbd-5d4b-47ae-a6bc-30e0bac826e0",
+            "Value": {
+                "id": "5b11dca8-490f-44b4-ad1c-e9eed24b7d58",
+                "resourcePath": "sounds\\Knife_Block\\Knife_Block.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "76c772ec-8253-4e50-b9ca-9e161025e0aa",
+            "Value": {
+                "id": "483f446d-b538-43e2-be48-e4bd82b17449",
+                "resourcePath": "sounds\\Rock_Block\\Rock_Block.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "85c76acb-52ce-4498-8b4e-d39c43cc1a0b",
             "Value": {
                 "id": "473f8d05-1582-4496-a967-59e7fe08dd9f",
@@ -162,7 +218,7 @@
             "Key": "977a234a-47f9-4251-b4a2-99c86e7c8309",
             "Value": {
                 "id": "dbeef7b1-f286-4765-9fed-b827112dd64e",
-                "resourcePath": "sounds\\Player_Taken_Damage\\Player_Taken_Damage.yy",
+                "resourcePath": "sounds\\Taken_Damage\\Taken_Damage.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -228,6 +284,14 @@
                 "id": "9feedf8c-6c88-413b-a598-57f943c164b0",
                 "resourcePath": "views\\d48620f9-9c66-4113-860d-cbc13aaae84a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "db1984b0-656c-4c42-8352-cb30e5e0481e",
+            "Value": {
+                "id": "5fa895ff-7f84-4dbc-83b6-101c04f6081f",
+                "resourcePath": "sounds\\Jar_Block\\Jar_Block.yy",
+                "resourceType": "GMSound"
             }
         },
         {

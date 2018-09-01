@@ -1,8 +1,8 @@
 {
-    "id": "977a234a-47f9-4251-b4a2-99c86e7c8309",
+    "id": "73764cbd-5d4b-47ae-a6bc-30e0bac826e0",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "Player_Taken_Damage",
+    "name": "Knife_Block",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
