@@ -50,7 +50,7 @@
             "Key": "24fb7196-4f33-41c5-822c-8928eb132777",
             "Value": {
                 "id": "d20a8c7f-32a3-40b6-97f6-f9d18e7a8620",
-                "resourcePath": "objects\\obj_Player\\obj_Player.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
