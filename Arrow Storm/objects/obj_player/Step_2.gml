@@ -64,7 +64,9 @@ if(hp <= 0)
 	instance_deactivate_object(lance)
 	instance_deactivate_object(shield)
 	instance_deactivate_object(self)
-	
+	obj_score.gameOver = true
+	obj_score.alarm[0] = room_speed * 7
+
 }
 
 // saving current x & y to values for movement sound check

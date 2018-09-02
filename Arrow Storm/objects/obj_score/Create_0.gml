@@ -1,0 +1,2 @@
+startGame = true
+gameOver = false

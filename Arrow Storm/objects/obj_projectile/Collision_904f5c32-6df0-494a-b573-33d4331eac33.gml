@@ -15,5 +15,7 @@ if(!deflected and instance_exists(obj_player))
 	
 	deflected = true
 	
+	score += 10
+	
 	audio_play_sound(soundToPlay,100,false)
 }
