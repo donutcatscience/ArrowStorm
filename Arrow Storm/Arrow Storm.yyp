@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "4e4b8bcb-5096-4eaa-a174-8871c806a730",
+            "Value": {
+                "id": "a64c580f-04e7-4188-a030-c1a7b2a9c9ed",
+                "resourcePath": "sprites\\spr_knife\\spr_knife.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ecb1f37-e407-4777-948e-0a657722d097",
             "Value": {
                 "id": "c1d701af-ff6c-4bc3-a70c-b58d74b42760",
@@ -436,6 +444,14 @@
                 "id": "57e18398-4dbb-4210-ad98-0728bccf06ca",
                 "resourcePath": "views\\67549baa-9fea-4ec4-955f-2bd1ade27c57.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6892ef2d-a23c-4f87-9520-144a49e34bcc",
+            "Value": {
+                "id": "e2e86318-a284-4fa0-9a14-70da23886a14",
+                "resourcePath": "sprites\\spr_player_acidpool\\spr_player_acidpool.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
