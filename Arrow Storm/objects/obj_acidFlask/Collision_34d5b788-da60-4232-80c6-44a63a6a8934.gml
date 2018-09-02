@@ -1,4 +1,4 @@
-/// @description Insert description here
+//// @description Insert description here
 // You can write your code in this editor
 
 if(!deflected and instance_exists(obj_player))
@@ -15,5 +15,5 @@ if(!deflected and instance_exists(obj_player))
 	
 	deflected = true
 	
-	audio_play_sound(soundToPlay,100,false)
+	audio_play_sound(snd_jar_Block,100,false)
 }

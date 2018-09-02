@@ -62,7 +62,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "b40f1f3c-85f0-44ce-8520-08ada953055e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "snd_rock_Hit",
+            "varName": "soundToPlay",
+            "varType": 5
+        }
     ],
     "solid": false,
     "spriteId": "971956c5-087e-45a5-a354-ed3da027987a",

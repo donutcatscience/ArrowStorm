@@ -4,7 +4,7 @@ if(deflected)
 {
 	instance_destroy(other)
 
-	audio_play_sound(snd_taken_Damage,100,false)
+	audio_play_sound(snd_badguy_Death_Noise,100,false)
 
 	instance_destroy(self)	
 }
