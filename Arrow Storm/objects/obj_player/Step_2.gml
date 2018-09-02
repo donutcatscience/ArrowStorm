@@ -14,17 +14,21 @@ if(mouse_check_button_pressed(mb_left))
 			state = playerState.lance
 			image_index = 1
 			instance_activate_object(lance)
+			audio_play_sound(snd_lance_Draw,1,0);
 			instance_deactivate_object(shield)
 			break
+			
 		
 		case playerState.lance:
 			state = playerState.shield
 			image_index = 2
 			instance_activate_object(shield)
+			audio_play_sound(snd_shield_Up,1,0);
 			instance_deactivate_object(lance)
 			break
 	}
 }
+
 
 // have objects follow player & aim with player
 lance.x = x
@@ -62,3 +66,7 @@ if(hp <= 0)
 	instance_deactivate_object(self)
 	
 }
+
+// saving current x & y to values for movement sound check
+prevX = x;
+prevY = y;

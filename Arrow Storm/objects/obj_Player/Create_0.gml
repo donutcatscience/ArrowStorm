@@ -1,6 +1,8 @@
 
 // movement speed
 moveSpeed = 5
+prevX = x;
+prevY = y;
 
 enum playerState{ shield, lance}
 
