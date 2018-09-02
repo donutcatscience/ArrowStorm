@@ -2,6 +2,8 @@
 /// @param agent - AI Agent that has a obj_enemy_parent Parent
 /// @param target - What to chase... only needs built in x,y
 
+if(instance_exists(obj_player))
+{
 var agent = argument0
 var target = argument1
 
@@ -57,5 +59,5 @@ agent.yVel = newVel[1]
 agent.x += agent.xVel
 agent.y += agent.yVel
 
-
+}
 

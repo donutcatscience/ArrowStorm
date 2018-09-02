@@ -3,6 +3,8 @@
 /// @param px - xPosition of target
 /// @param py - yPosition of target
 
+if(instance_exists(obj_player))
+{
 var agent = argument0
 var px = argument1
 var py = argument2
@@ -61,3 +63,4 @@ agent.y += agent.yVel
 
 
 
+}

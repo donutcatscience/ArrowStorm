@@ -43,7 +43,7 @@
             "mvc": "1.0",
             "objectId": "57b1bb8c-dfd3-4c63-957e-2e2d04e1d3f9",
             "propertyId": "3915a044-5e39-4c5b-aeb3-85090d3a9025",
-            "value": "obj_shot"
+            "value": "obj_javelin"
         },
         {
             "id": "d1b8f83c-86b4-43cf-a23f-aa3f0cfa2882",

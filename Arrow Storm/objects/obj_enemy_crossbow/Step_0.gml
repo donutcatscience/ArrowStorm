@@ -11,7 +11,7 @@ else if(self.ai_state == 1) //shoot at the player
 	self.sprite_index = spr_crossbow_attack
 	faceToTargetObject(self,obj_player)
 	//show_debug_message("AIStep " + string(self.faceX) + " " + string(self.faceY))
-	if(self.canShoot && checkInView(self))
+	if(self.canShoot && checkInView(self) and instance_exists(obj_player))
 	{
 		throwAtTarget(self,obj_player,self.type_of_ammo)
 		alarm[SHOT_RELOAD_ALARM] = room_speed * self.shot_cooldown
@@ -33,12 +33,15 @@ else if(self.ai_state == 3)
 {
 	self.AIM_COUNT+=1
 	self.sprite_index = spr_crossbow_base
+	if(instance_exists(obj_player))
+	{
 	var new_aim_angle = point_direction(self.x, self.y, obj_player.x, obj_player.y)
 	direction = lerp(direction,new_aim_angle,self.AIM_COUNT/(self.aim_time * 100))
 	self.image_angle = direction
 	self.faceX = dcos(direction)
 	self.faceY = dsin(direction)
 	//faceToTargetObject(self,obj_player)
+	}
 }
 
 
