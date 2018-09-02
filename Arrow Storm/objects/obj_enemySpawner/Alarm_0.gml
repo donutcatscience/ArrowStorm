@@ -20,9 +20,9 @@ else {y= obj_player.y + spawnDistance;}
 
 
 // Determine what to spawn
-switch irandom(4){
+//switch irandom(4){
 	
-}
+//}
 
 // Reset alarm
 alarm[0] = relocateTime;

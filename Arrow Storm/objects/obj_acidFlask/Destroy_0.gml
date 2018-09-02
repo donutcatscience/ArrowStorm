@@ -1,9 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//move_towards_point(destPointX,destPointY,3)
-
-
-
-x += run
-y += rise
+with(instance_create_layer(x,y,"acid", obj_acid))
+{
+		deflected = other.deflected
+}

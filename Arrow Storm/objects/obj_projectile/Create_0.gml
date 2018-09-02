@@ -4,14 +4,20 @@
 startPointX = x
 startPointY = y
 
-destPointX = obj_player.x
-destPointY = obj_player.y
-
+if(instance_exists(obj_player))
+{
+	destPointX = obj_player.x
+	destPointY = obj_player.y
+}
+else
+{
+	destPointX = x
+	destPointY = y
+}
 deflected = false
 
 image_angle = point_direction(startPointX,startPointY,destPointX,destPointY)
 
+projectileSpeed = 2
 
-//TODO: normailize slope
-rise = (destPointY - startPointY)/100
-run = (destPointX - startPointX)/100
+move_towards_point(destPointX,destPointY,projectileSpeed)

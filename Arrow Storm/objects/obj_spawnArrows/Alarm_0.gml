@@ -32,4 +32,4 @@ switch(irandom(1))
 
 alarm[0] = room_speed * secondsPerTeleport
 
-instance_create_layer(x,y,"projectiles",obj_projectile)
+instance_create_layer(x,y,"projectiles",obj_bolt)
