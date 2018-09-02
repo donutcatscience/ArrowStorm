@@ -19,10 +19,28 @@ if ((northSouth == 0) && (obj_player.y - spawnDistance > 0)) {
 else {y= obj_player.y + spawnDistance;}
 
 
+// Prevent too many enemies on the screen
+var enemieCount = instance_number(obj_enemy_parent);
+
 // Determine what to spawn
-//switch irandom(4){
-	
-//}
+if (instance_exists(obj_player) && (enemieCount <= 50)) {
+	randomEnemy = irandom_range(1,100);
+	if ((randomEnemy <= 40)) {
+		instance_create_layer(x,y,"Enemies",obj_enemy_rock_thrower)
+	}
+	else if ((randomEnemy >= 41) && (randomEnemy <= 65)) {
+		instance_create_layer(x,y,"Enemies",obj_enemy_crossbow);
+	}
+	else if ((randomEnemy >= 66) && (randomEnemy <= 85)) {
+		instance_create_layer(x,y,"Enemies",obj_enemy_javalin_thrower);
+	}
+	else if ((randomEnemy >= 86) && (randomEnemy <= 95)) {
+		instance_create_layer(x,y,"Enemies",obj_enemy_alchemist);
+	}
+	else {
+		instance_create_layer(x,y,"Enemies",obj_enemy_assassin);
+	}
+}
 
 // Reset alarm
 alarm[0] = relocateTime;
