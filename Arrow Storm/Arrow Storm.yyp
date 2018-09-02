@@ -31,6 +31,30 @@
     },
     "resources": [
         {
+            "Key": "0039703e-c8f5-4e11-9b44-07235588d31e",
+            "Value": {
+                "id": "f42ccb8a-35df-4bd7-a10c-fc87163220ea",
+                "resourcePath": "objects\\obj_shot\\obj_shot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "00ad1e2b-87ed-4da3-b1ce-8f73dbe830f6",
+            "Value": {
+                "id": "d15e1e8f-2ad6-4ef9-a6ae-24f9c25cdcaf",
+                "resourcePath": "objects\\obj_enemySpawner\\obj_enemySpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0337b735-6e8e-4ceb-8373-04328089d0f4",
+            "Value": {
+                "id": "f51a8ef1-8a2d-439d-8942-5ffd812e21b9",
+                "resourcePath": "scripts\\checkInView\\checkInView.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07664b4e-7b94-463e-987a-564dafe07758",
             "Value": {
                 "id": "ef530d0d-2314-49eb-9df1-00a1cc532e3d",
@@ -52,6 +76,30 @@
                 "id": "37d3f502-2e6a-4850-b5c7-746a357cf686",
                 "resourcePath": "sounds\\snd_rock_Hit\\snd_rock_Hit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "1281ae73-16e5-4c51-ae95-0df2dda67134",
+            "Value": {
+                "id": "20c16acc-de94-4ae8-898c-21fbde7d649a",
+                "resourcePath": "objects\\obj_enemy_javalin_thrower\\obj_enemy_javalin_thrower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "12f9e5e0-bad6-4afc-a725-d90fd870d444",
+            "Value": {
+                "id": "aed56b7a-860f-4511-ae8e-2e907aec6615",
+                "resourcePath": "scripts\\getUnitVector\\getUnitVector.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "13d3ac36-fce3-48c2-a204-9386d84e9a9b",
+            "Value": {
+                "id": "e02cdf43-27d3-4bf7-ac7c-b0882960bf5e",
+                "resourcePath": "sprites\\spr_javalinthrower_attack\\spr_javalinthrower_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -87,10 +135,34 @@
             }
         },
         {
+            "Key": "24e0ec79-b0db-42d8-88ba-72f686b84476",
+            "Value": {
+                "id": "859beabf-873f-4d5b-b55d-d2c0095252a6",
+                "resourcePath": "scripts\\faceToTargetObject\\faceToTargetObject.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27a67318-36d3-4aaf-b825-9946aa2add39",
             "Value": {
                 "id": "5e73c596-688a-4fa5-a9aa-a3b90821c406",
                 "resourcePath": "sprites\\spr_acidPoolTemp\\spr_acidPoolTemp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "29f0fffa-7c75-40b8-afa3-03fef283f8fa",
+            "Value": {
+                "id": "84b41651-133b-4792-8e7a-d389feb66646",
+                "resourcePath": "objects\\obj_enemy_rock_thrower\\obj_enemy_rock_thrower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a2810c1-8ae5-44be-8406-d30d1ffcf6a0",
+            "Value": {
+                "id": "ce6919c7-d6f7-4c87-8bc4-ccf93d80f044",
+                "resourcePath": "sprites\\spr_alchemist_setup\\spr_alchemist_setup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -100,6 +172,14 @@
                 "id": "03f6a05b-bf08-4179-af86-b289a2940857",
                 "resourcePath": "sounds\\snd_arrow_Block\\snd_arrow_Block.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2b3c8a23-75ee-4d23-8bc3-0a1fefab6e6c",
+            "Value": {
+                "id": "d52d366b-f261-4069-b0e3-332a8a305a71",
+                "resourcePath": "views\\2b3c8a23-75ee-4d23-8bc3-0a1fefab6e6c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -119,11 +199,67 @@
             }
         },
         {
+            "Key": "310c8d99-e2cf-4fd0-85ce-9110ab7d3121",
+            "Value": {
+                "id": "2e87f433-4e4d-4017-a676-4471472dea97",
+                "resourcePath": "sprites\\spr_javalinthrower_walk\\spr_javalinthrower_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32dfcfbf-e5ba-443c-91b8-1842e57793b3",
             "Value": {
                 "id": "070ac40d-c459-4e6b-a083-efbe1e7f9037",
                 "resourcePath": "views\\32dfcfbf-e5ba-443c-91b8-1842e57793b3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "34f84a6f-94ca-4cec-b0c4-62b525e58641",
+            "Value": {
+                "id": "ed1a1c6f-439f-4b7b-9ece-fa1b188d4b32",
+                "resourcePath": "sprites\\spr_rockthower_setup\\spr_rockthower_setup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "38e980d9-6b53-457c-8b24-1171ceb4f3d0",
+            "Value": {
+                "id": "757eee82-e0d1-4d34-a661-db2c9c56bea1",
+                "resourcePath": "sprites\\spr_crossbow_base\\spr_crossbow_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "399a74fd-40b4-48a4-835e-5aa185a182bb",
+            "Value": {
+                "id": "76bbed4d-626a-4bbd-9ea4-da812a9affd1",
+                "resourcePath": "scripts\\huntToTargetPosition\\huntToTargetPosition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3be84bef-ed8b-4dfa-9342-772ed7dbb5e5",
+            "Value": {
+                "id": "4ed472fd-b3a8-426d-8aa8-0570f5065d2c",
+                "resourcePath": "sprites\\spr_rockthower_walk\\spr_rockthower_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c47fd09-6c92-4ce1-b70a-848a4daf026c",
+            "Value": {
+                "id": "c927f496-a791-4c9c-b11d-f41b3335c6de",
+                "resourcePath": "views\\3c47fd09-6c92-4ce1-b70a-848a4daf026c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3e40c86f-ade0-4271-ae66-415d8e97b6dc",
+            "Value": {
+                "id": "9b1a2095-dc4f-4805-a766-f1deadfeb1ee",
+                "resourcePath": "sprites\\spr_crossbow_walk\\spr_crossbow_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,6 +311,22 @@
             }
         },
         {
+            "Key": "50dfdd2d-ece4-4170-bd6b-f77ead3504cb",
+            "Value": {
+                "id": "0d727651-9acf-4792-874c-de4259685f5b",
+                "resourcePath": "objects\\obj_enemy_assassin\\obj_enemy_assassin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "57b1bb8c-dfd3-4c63-957e-2e2d04e1d3f9",
+            "Value": {
+                "id": "22c5cf4e-697d-42ce-aa89-fc99ecd27227",
+                "resourcePath": "objects\\obj_enemy_parent\\obj_enemy_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5890956e-c1a2-4bc5-adbc-78638771fff8",
             "Value": {
                 "id": "5d400ebf-3748-46ec-98a4-493656bdc01d",
@@ -188,6 +340,14 @@
                 "id": "a13a6601-5d79-4b79-a901-0879119d9749",
                 "resourcePath": "views\\5bd7dc0b-8d64-4e9a-8167-0b225c5fe9cc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5c27d5a6-d86e-4716-afcd-8aad3a310d43",
+            "Value": {
+                "id": "6eb1c4d7-950e-476c-a662-4897af93fc8d",
+                "resourcePath": "sprites\\spr_crossbow_setup\\spr_crossbow_setup.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,6 +367,14 @@
             }
         },
         {
+            "Key": "64052c58-c66a-4010-904f-292275aad276",
+            "Value": {
+                "id": "66dc3512-448a-4a3f-9047-e47658c91302",
+                "resourcePath": "sprites\\spr_rockthower_base\\spr_rockthower_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67549baa-9fea-4ec4-955f-2bd1ade27c57",
             "Value": {
                 "id": "57e18398-4dbb-4210-ad98-0728bccf06ca",
@@ -220,6 +388,22 @@
                 "id": "c0ea901a-1b70-449c-800e-68fd505197b3",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "696b2e45-dd47-4e19-a73f-40e469633d7f",
+            "Value": {
+                "id": "8596b42b-60e8-4f50-8772-de27a5e06569",
+                "resourcePath": "sprites\\spr_rockthower_attack\\spr_rockthower_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b9334e7-bcba-4b3f-afe2-e55dde16c7bc",
+            "Value": {
+                "id": "61e2f17c-ba14-4dc7-9077-8b20f09124e0",
+                "resourcePath": "views\\6b9334e7-bcba-4b3f-afe2-e55dde16c7bc.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -239,11 +423,27 @@
             }
         },
         {
+            "Key": "6f382599-77c9-42c1-89e0-5e3351b47df3",
+            "Value": {
+                "id": "20772ae7-f67e-4f86-8d7d-fad7027e4a5d",
+                "resourcePath": "sprites\\spr_assassin_base\\spr_assassin_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "703f1e55-0e17-43cf-9f9a-2eaa369016a8",
             "Value": {
                 "id": "695a64e8-d2f0-4169-89a1-c131a37916fc",
                 "resourcePath": "views\\703f1e55-0e17-43cf-9f9a-2eaa369016a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "709744f4-2a83-4834-96ef-abe02fef0afd",
+            "Value": {
+                "id": "17f13f30-b285-4feb-b578-4adcd8ed145c",
+                "resourcePath": "sprites\\spr_javalinthrower_setup\\spr_javalinthrower_setup.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +479,30 @@
             }
         },
         {
+            "Key": "7aa0fe41-ba24-4b66-a10f-c71352fedcba",
+            "Value": {
+                "id": "957b0a0f-ee8b-434a-848f-dd965e6b79d2",
+                "resourcePath": "sprites\\spr_shot\\spr_shot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7bfd94a3-a0f1-43e4-a5f8-e6574588277d",
+            "Value": {
+                "id": "27ebc73d-025a-4674-b6b9-b5ebd94235ef",
+                "resourcePath": "sprites\\spr_alchemist_attack\\spr_alchemist_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7cd5d77d-fad7-41e2-aea7-434194bdbee1",
+            "Value": {
+                "id": "2cefa7ff-0083-4838-b65b-2c7fd24709b8",
+                "resourcePath": "sprites\\spr_assassin_walk\\spr_assassin_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85c76acb-52ce-4498-8b4e-d39c43cc1a0b",
             "Value": {
                 "id": "473f8d05-1582-4496-a967-59e7fe08dd9f",
@@ -308,6 +532,14 @@
                 "id": "f46bcfc3-f197-47f1-8d30-c039f2845552",
                 "resourcePath": "views\\89a41087-6677-4cd6-984b-b5d7a54540c5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8aac9977-f935-4263-bcaf-d0dae110142d",
+            "Value": {
+                "id": "18c69680-649e-4205-8d1d-c6e7f28f00b7",
+                "resourcePath": "sprites\\spr_enemy_parent_base\\spr_enemy_parent_base.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -351,6 +583,14 @@
             }
         },
         {
+            "Key": "987c4cf4-5c05-4311-a70b-f0cf7bd2dd09",
+            "Value": {
+                "id": "e6101ec3-2857-405e-b931-1025bb8bdffa",
+                "resourcePath": "sprites\\spr_alchemist_base\\spr_alchemist_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b9a0518-f205-40ba-be52-4cfcd0e37a52",
             "Value": {
                 "id": "b6a48dc4-e3b1-4124-857e-540425dc9ae5",
@@ -364,6 +604,14 @@
                 "id": "f4f62324-e247-4108-a8fe-e0cb981ebb09",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "acc6e825-9f62-420a-b7c2-56dc99133919",
+            "Value": {
+                "id": "02c23b98-12fa-449f-81ac-6b09ef162d89",
+                "resourcePath": "scripts\\faceToTargetPosition\\faceToTargetPosition.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -391,6 +639,22 @@
             }
         },
         {
+            "Key": "b127be7a-a40e-4937-ad02-cf89389bc4d2",
+            "Value": {
+                "id": "be606321-15ed-46f1-bfa2-fa4bb218af5b",
+                "resourcePath": "objects\\obj_enemy_alchemist\\obj_enemy_alchemist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b33cd27f-a72c-46ed-9822-ee747df0ac26",
+            "Value": {
+                "id": "12b76ab8-a22f-45e1-860a-2d9d35b7c715",
+                "resourcePath": "scripts\\huntToTargetObject\\huntToTargetObject.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b3bd98ac-066c-44cb-9d2c-b232c67b6e56",
             "Value": {
                 "id": "3a72c9ff-075b-4306-b50b-9deae4973353",
@@ -399,11 +663,51 @@
             }
         },
         {
+            "Key": "b8113174-7cfb-4a25-a359-885eb788dba4",
+            "Value": {
+                "id": "6942d5c6-740b-4be8-a72d-9428e6dbe384",
+                "resourcePath": "scripts\\capVectorToSize\\capVectorToSize.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c3b01f8e-b309-4253-a54a-f3e77f791a34",
+            "Value": {
+                "id": "6488d122-58f3-4f4a-9736-d6e01fc998cd",
+                "resourcePath": "sprites\\spr_alchemist_walk\\spr_alchemist_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c568e11b-01b8-437b-8076-d91bb8618698",
+            "Value": {
+                "id": "6a31f845-428b-4895-aa87-c8eb6876b523",
+                "resourcePath": "scripts\\getVectorMagnitude\\getVectorMagnitude.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c739529d-f3bb-4c33-8866-0dbda0f096a4",
+            "Value": {
+                "id": "0d77eee8-7cd5-4b2b-b7e6-b9f194e0285a",
+                "resourcePath": "scripts\\throwAtTarget\\throwAtTarget.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c9698583-90f4-43f7-bb99-aad1425504c3",
             "Value": {
                 "id": "1d9a3b05-bb1d-435f-a827-a56cfd8cdc90",
                 "resourcePath": "objects\\obj_lance\\obj_lance.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9b10bbb-90fc-421b-a7b3-22185d76a78d",
+            "Value": {
+                "id": "2b97bcfe-e84b-449a-8c7b-d1b1bd7a3a32",
+                "resourcePath": "sprites\\spr_enemySpawnerTemp\\spr_enemySpawnerTemp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -439,6 +743,14 @@
             }
         },
         {
+            "Key": "d7124571-7569-4c5d-a64a-bc2eb08a55dd",
+            "Value": {
+                "id": "f7a139f0-d9b5-4c02-bd38-5ed9d7cb46d7",
+                "resourcePath": "objects\\obj_enemy_crossbow\\obj_enemy_crossbow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d7168eb1-6965-49d4-9a01-dd50274181c6",
             "Value": {
                 "id": "ae750fd9-7133-4a5c-b06e-0eaf4cf8900b",
@@ -460,6 +772,14 @@
                 "id": "06831c4b-af70-4f3c-a06d-ae8d51ff41b3",
                 "resourcePath": "sprites\\spr_playerTemp\\spr_playerTemp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd0f47cb-c172-463d-bbdd-65b4bceb171b",
+            "Value": {
+                "id": "5aab8f10-1980-4895-912c-42aa68789706",
+                "resourcePath": "views\\dd0f47cb-c172-463d-bbdd-65b4bceb171b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -487,6 +807,22 @@
             }
         },
         {
+            "Key": "e570c094-83d8-4399-96a1-2c3c690684e6",
+            "Value": {
+                "id": "6e550d95-cd3a-4b3e-84db-8453ad2d0057",
+                "resourcePath": "sprites\\spr_crossbow_attack\\spr_crossbow_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e69d572c-a4b4-408c-af6e-40a4d898d588",
+            "Value": {
+                "id": "0bd8339a-a6b7-4be6-aaaf-55420c247f7f",
+                "resourcePath": "views\\e69d572c-a4b4-408c-af6e-40a4d898d588.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e8b0527a-1890-47fc-bd0f-00eb0a82afcb",
             "Value": {
                 "id": "4fb32964-00f6-4f8c-9a80-cbd560e4595f",
@@ -511,11 +847,35 @@
             }
         },
         {
+            "Key": "ef121843-995c-4bbe-8c1c-9bb02c300532",
+            "Value": {
+                "id": "500e42a1-091c-4d5b-95f9-d4ce491fa510",
+                "resourcePath": "sprites\\spr_javalinthrower_base\\spr_javalinthrower_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f2a2fcc4-c7a0-4c06-9c69-f69debb6d3b6",
+            "Value": {
+                "id": "5e84963e-74da-48f1-9c04-d98a6529f6ef",
+                "resourcePath": "sprites\\spr_assassin_attack\\spr_assassin_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "5698db58-0578-4c76-89cb-e32b3eda62bc",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f55cf7ca-263d-4d1e-9435-9244c8e7e70e",
+            "Value": {
+                "id": "2ff66425-a7b5-4f81-8021-9cc50b5e71aa",
+                "resourcePath": "views\\f55cf7ca-263d-4d1e-9435-9244c8e7e70e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -541,10 +901,26 @@
                 "resourcePath": "sprites\\spr_terrain\\spr_terrain.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fbe28d68-c7ae-4031-90d0-9cfc8e1e7118",
+            "Value": {
+                "id": "79a0421c-04f5-472c-8898-fd12b6ac10c4",
+                "resourcePath": "sprites\\spr_assassin_setup\\spr_assassin_setup.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        
+        "b8113174-7cfb-4a25-a359-885eb788dba4",
+        "0337b735-6e8e-4ceb-8373-04328089d0f4",
+        "24e0ec79-b0db-42d8-88ba-72f686b84476",
+        "acc6e825-9f62-420a-b7c2-56dc99133919",
+        "12f9e5e0-bad6-4afc-a725-d90fd870d444",
+        "c568e11b-01b8-437b-8076-d91bb8618698",
+        "b33cd27f-a72c-46ed-9822-ee747df0ac26",
+        "399a74fd-40b4-48a4-835e-5aa185a182bb",
+        "c739529d-f3bb-4c33-8866-0dbda0f096a4"
     ],
     "tutorial": ""
 }
