@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "314dc1d1-82e3-468a-8891-6654f01f3119",
+            "Value": {
+                "id": "580e951f-fbc7-4f50-a0bf-88de40b5c477",
+                "resourcePath": "sprites\\spr_crossbow_bolt\\spr_crossbow_bolt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "329ad6b2-9e87-4a97-93d9-2e03b99d0ec3",
             "Value": {
                 "id": "78efe8af-e8f6-4fbf-85fc-d3341ab473e8",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "45779225-0282-4410-bd6f-974a7e4f56ee",
+            "Value": {
+                "id": "e549ff9f-db50-4753-b46f-8a17d44a7eec",
+                "resourcePath": "sprites\\spr_javalin\\spr_javalin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ac38602-ff58-43e5-a78f-18c7319480f6",
             "Value": {
                 "id": "5831e7db-2a5b-488a-94a2-234b73a030b4",
@@ -348,6 +364,14 @@
                 "id": "cba55acf-1880-40cf-858f-05546c834c88",
                 "resourcePath": "objects\\obj_enemy_assassin\\obj_enemy_assassin.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "56052db1-ae19-40b6-b20b-1625c1a4af0b",
+            "Value": {
+                "id": "87fdd667-5a19-464f-901a-36c13f27cdb7",
+                "resourcePath": "sprites\\spr_flask_red\\spr_flask_red.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -588,6 +612,14 @@
                 "id": "3d470cd8-27b4-45f5-9ad6-efbea4cbf24c",
                 "resourcePath": "sounds\\snd_badguy_Death_Noise\\snd_badguy_Death_Noise.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "90ed57e3-eb29-420b-bda9-7267b8cab212",
+            "Value": {
+                "id": "7a0f1de1-3265-475d-a126-f39c185b3165",
+                "resourcePath": "sprites\\spr_flask_purp\\spr_flask_purp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

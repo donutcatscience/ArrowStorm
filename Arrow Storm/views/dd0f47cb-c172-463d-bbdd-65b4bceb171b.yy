@@ -7,7 +7,8 @@
         "64052c58-c66a-4010-904f-292275aad276",
         "696b2e45-dd47-4e19-a73f-40e469633d7f",
         "34f84a6f-94ca-4cec-b0c4-62b525e58641",
-        "3be84bef-ed8b-4dfa-9342-772ed7dbb5e5"
+        "3be84bef-ed8b-4dfa-9342-772ed7dbb5e5",
+        "eb65a6db-cdc0-4fb3-84a4-dafa9b6a3b02"
     ],
     "filterType": "GMSprite",
     "folderName": "enemy_rockthrower",

@@ -7,7 +7,8 @@
         "ef121843-995c-4bbe-8c1c-9bb02c300532",
         "13d3ac36-fce3-48c2-a204-9386d84e9a9b",
         "709744f4-2a83-4834-96ef-abe02fef0afd",
-        "310c8d99-e2cf-4fd0-85ce-9110ab7d3121"
+        "310c8d99-e2cf-4fd0-85ce-9110ab7d3121",
+        "45779225-0282-4410-bd6f-974a7e4f56ee"
     ],
     "filterType": "GMSprite",
     "folderName": "enemy_javalinthrower",
