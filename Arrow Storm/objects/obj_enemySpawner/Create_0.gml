@@ -3,7 +3,8 @@
 
 // Variables
 relocateTime = 0.5 * room_speed;
-spawnDistance = 400;
+horzSpawnDistance = 1340;
+vertSpawnDistance = 710;
 
 alarm[0] = relocateTime;
 

@@ -4,7 +4,7 @@
 // Control spawner location, ensuring it doesn't move out of the room's boundaries
 // X values
 if (instance_exists(obj_player)){
-	spawnDistance = irandom_range(400,600);
+	spawnDistance = irandom_range(150,300) + horzSpawnDistance;
 	eastWest = irandom_range(0,1);
 	if ((eastWest == 0) && (obj_player.x - spawnDistance > 0)) { 
 		x = obj_player.x - spawnDistance;
@@ -12,7 +12,7 @@ if (instance_exists(obj_player)){
 	else {x = obj_player.x + spawnDistance;}
 
 	// Y values
-	spawnDistance = irandom_range(400,600);
+	spawnDistance = irandom_range(150,300) + vertSpawnDistance;
 	northSouth = irandom_range(0,1);
 	if ((northSouth == 0) && (obj_player.y - spawnDistance > 0)) { 
 		y = obj_player.y - spawnDistance;
@@ -24,7 +24,7 @@ if (instance_exists(obj_player)){
 	var enemieCount = instance_number(obj_enemy_parent);
 
 	// Determine what to spawn
-	if (instance_exists(obj_player) && (enemieCount <= 50)) {
+	if (instance_exists(obj_player) && (enemieCount <= 15)) {
 		randomEnemy = irandom_range(1,100);
 		if ((randomEnemy <= 40)) {
 			instance_create_layer(x,y,"Enemies",obj_enemy_rock_thrower)
